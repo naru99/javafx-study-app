@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane fx:id="present" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+    <children>
+        <BorderPane layoutX="-1.0" layoutY="-1.0" prefHeight="600.0" prefWidth="800.0" styleClass="callender">
+            <center>
+                <StackPane fx:id="stack" maxHeight="240.0" maxWidth="493.0" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <fx:include fx:id="calender" source="/fxml/calender.fxml"/>
+                    </children>
+                </StackPane>
+            </center>
+            <bottom>
+                <fx:include  fx:id="dayDetail" source="/fxml/day.fxml"/>
+            </bottom>
+            <left>
+                <Button fx:id="before" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#processBeforeClick" text="＜">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Button>
+            </left>
+            <right>
+                <Button fx:id="after" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#processAfterClick" text="＞">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Button>                
+            </right>
+        </BorderPane>
+    </children>
+    <stylesheets>
+        <URL value="@/css/main.css" />
+    </stylesheets>
+</AnchorPane>

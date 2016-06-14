@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox maxHeight="240.0" maxWidth="493.0" prefHeight="200.0" prefWidth="100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CalenderController">
+    <children>
+        <Text fx:id="mTitle" strokeType="OUTSIDE" strokeWidth="10.0" styleClass="title" textAlignment="CENTER" wrappingWidth="493">
+            <VBox.margin>
+                <Insets bottom="10.0" />
+            </VBox.margin>
+        </Text>
+        <FlowPane maxHeight="25.0" maxWidth="493.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0">
+            <children>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="日" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="月" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="火" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="水" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="木" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="金" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="25.0" prefWidth="70.0" style="-fx-border-color: black;">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="土" textAlignment="CENTER" />
+                    </children>
+                </VBox>
+            </children>
+        </FlowPane>
+        <FlowPane fx:id="calender" maxHeight="300.0" prefWidth="493.0">
+            <children>
+                <Button fx:id="day1" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="1">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day2" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="2">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day3" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="3">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day4" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="4">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day5" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="5">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day6" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="6">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day7" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="7">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day8" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="8">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day9" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="9">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day10" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="10">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day11" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="11">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day12" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="12">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day13" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="13">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day14" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="14">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day15" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="15">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day16" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="16">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day17" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="17">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day18" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="18">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day19" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="19">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day20" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="20">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day21" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="21">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day22" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="22">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day23" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="23">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day24" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="24">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day25" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="25">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day26" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="26">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day27" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="27">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day28" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="28">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day29" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="29">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day30" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="30">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+                <Button fx:id="day31" onAction="#processDayClick" prefHeight="60.0" prefWidth="70.0" styleClass="mainBoxCss" text="31">
+                    <stylesheets>
+                        <URL value="@/css/box.css" />
+                    </stylesheets>
+                </Button>
+            </children>
+        </FlowPane>
+    </children>
+    <stylesheets>
+        <URL value="@/css/main.css" />
+    </stylesheets>
+</VBox>
+

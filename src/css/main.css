@@ -1,0 +1,33 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.background {
+    -fx-background-color:
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+
+.borderpane {
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+}
+
+
+.callender {
+    -fx-border-width: 1px;
+    -fx-border-color: hotpink;
+}
+
+.vbox {
+    -fx-border-width: 1px;
+    -fx-border-color: springgreen;
+}
+
+.title {
+    -fx-font-family: "Arial";
+    -fx-font-size: 20;
+    -fx-text-fill: rgba(255, 255, 255, 0.4);
+    -fx-effect: dropshadow( one-pass-box , rgba(0, 0, 0, 0.6), 0, 0.0 , 0 , 1 );
+}

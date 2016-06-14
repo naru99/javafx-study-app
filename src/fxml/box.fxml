@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox  minWidth="70.0" minHeight="60.0" styleClass="mainBoxCss">
+     <stylesheets>
+        <URL value="@/css/box.css"/>
+    </stylesheets>   
+</VBox> 

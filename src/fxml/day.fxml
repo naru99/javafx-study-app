@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="550.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DayDetailController">
+    <children>
+        <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" styleClass="borderpane" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Text fx:id="sTitle" strokeType="OUTSIDE" strokeWidth="10.0" styleClass="title" text="4月15日（金）" wrappingWidth="580.0">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" top="5.0" />
+                    </VBox.margin>
+                </Text>
+                <ScrollPane hmax="24" hmin="0" hvalue="13" maxHeight="60.0" maxWidth="576.0" minWidth="576.0" prefHeight="200.0" prefWidth="200.0">
+                    <content>
+                        <VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <ImageView fitWidth="1154.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../image/tbar.png" />
+                                    </image>
+                                </ImageView>
+                                <HBox fx:id="timeBar" alignment="CENTER" maxHeight="25.0" maxWidth="70.0" style="-fx-border-color: black;">
+                                    <children>
+                                        <VBox fx:id="t00" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t01" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t02" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t03" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t04" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t05" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t06" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t07" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t08" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t09" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t10" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t11" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t12" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t13" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t14" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t15" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t16" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t17" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t18" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t19" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t20" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t21" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t22" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t23" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t24" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t25" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t26" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t27" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t28" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t29" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t30" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t31" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t32" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t33" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t34" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t35" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t36" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t37" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t38" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t39" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t40" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t41" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t42" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t43" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t44" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t45" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t46" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />
+                                        <VBox fx:id="t47" minWidth="24.0" onMouseClicked="#processMouseClick" prefHeight="20.0" prefWidth="24.0" styleClass="notSelectedCss" />                                                                     
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <Button fx:id="save" onAction="#processSaveClick" prefHeight="23.0" prefWidth="69.0" text="保存(s)">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+                </Button>
+            </children>
+        </VBox> 
+    </children>
+    <stylesheets>
+        <URL value="@/css/day.css" />
+    </stylesheets>
+</AnchorPane>

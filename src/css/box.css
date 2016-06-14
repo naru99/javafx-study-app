@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainBoxCss {
+    -fx-background-color: white;
+    -fx-border-color: #333333
+}
+.subBoxCss1 {
+    -fx-background-color: #ccffcc;
+}
+
+.subBoxCss2 {
+    -fx-background-color: #ffccff;
+}
+
+.selectedBoxCss {
+    -fx-background-color: #ffffcc;
+}
